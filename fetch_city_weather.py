@@ -22,11 +22,11 @@ if x["cod"] != "404":
     current_humidiy = y["humidity"]
     z = x["weather"] 
     weather_description = z[0]["description"] 
-    print(" Temperature (in kelvin unit) = " +
+    print(" Temperature (kelvin unit) = " +
                     str(current_temperature) + 
-          "\n atmospheric pressure (in hPa unit) = " +
+          "\n atmospheric pressure (hPa unit) = " +
                     str(current_pressure) +
-          "\n humidity (in percentage) = " +
+          "\n humidity ( percentage unit) = " +
                     str(current_humidiy) +
           "\n description = " +
                     str(weather_description)) 
